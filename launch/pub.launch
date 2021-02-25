@@ -4,5 +4,5 @@
 	<node pkg="tp_ros_henna" name="talker" type="publisher.py"/>
 	<node pkg="tp_ros_henna" name="chatter" type="publisher.py" output="screen">
 	</node>
-	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find tp_ros_henna)/config/pub_with_button.rviz" required="true" />
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find tp_ros_henna)/config/chatter_with_button.rviz" required="true" />
 </launch>
